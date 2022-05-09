@@ -17,11 +17,14 @@ public class Telefono {
         // TODO code application logic here
         celular cell = new celular();
         celular telefonito = new celular();
+        celular iphone = new celular();
+        
+        
         
         
         cell.celularAleatorio();
         telefonito.celularAleatorio();
-        
+        iphone.celularAleatorio();
        
         
         cell.setAlmacenamiento(64);
