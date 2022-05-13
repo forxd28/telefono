@@ -435,8 +435,25 @@ public class celular {
         System.out.println(this.estadoPower());
         System.out.println("");
     }
-    
 
-    
-    
+    /**
+     *
+     * @return
+     */
+    @Override
+    public String toString(){
+        return "El costo del celular es de: $" + precio + " pesos."
+                + "El alamacenamiento interno del celular es de: "+ almacenamiento
+                + "La memoria RAM del celular es de: "+ ram + " GB"
+                + "El tamaño del celular en pulgadas es de: " + tamano
+                + "Los megapixeles de las camaras son: " + camaraF +" MP en la frontal y " + camaraT +" MP en la trasera"
+                + "El celular es de color " + color
+                + "La capacidad de la bateria es de: " + capacidadBateria + " mh"
+                + "El puerto de carga del celular es :" + puertoCarga
+                + "La salida de audio del celular es: salida " + salidaAudio 
+                + "El altavoz del celular es " + altavoz
+                + "El celular "+(lector? "si" : "no")+" tiene lector de huella"
+                + "El celular es marca " + marca
+                + encendido;
+    }
 }
